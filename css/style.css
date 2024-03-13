@@ -1,13 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
-.columna1, #columna2{
-    width: 33.33%;
-    height: 750px;
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body {
+    background-image: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
+    font-family:'Bebas Neue', Kanit, "Playfair Display", Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+ul {
+    font-size: 20px;
+    
+}
+/* Estilos de columnas */
+
+.columna1 {
+    width: 30%;
+    height: 730px;
     float: left;
     border: solid 5px;
     border-radius: 20px;
     margin-right: 20px;
+    margin-left: 20px;
+    -webkit-box-shadow: 7px 10px 16px 7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 10px 16px 7px rgba(0,0,0,0.75);
+    box-shadow: 7px 10px 16px 7px rgba(0,0,0,0.75);
+    
 }
 
+#columna2 {
+    width: 30%;
+    height: 730px;
+    float: left;
+    border: solid 5px;
+    border-radius: 20px;
+    margin-right: 20px;
+    -webkit-box-shadow: 7px 10px 16px 7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 10px 16px 7px rgba(0,0,0,0.75);
+    box-shadow: 7px 10px 16px 7px rgba(0,0,0,0.75);
+    overflow: scroll;
+}
+
+
+#columna3 {
+    width: 30%;
+    height: 730px;
+    float: left;
+    border: solid 5px;
+    border-radius: 20px;
+    margin-right: 20px;
+    -webkit-box-shadow: 7px 10px 16px 7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 10px 16px 7px rgba(0,0,0,0.75);
+    box-shadow: 7px 10px 16px 7px rgba(0,0,0,0.75);
+}
+
+.columna1:hover, #columna2:hover, #columna3:hover {
+    transition: 0.4s;
+    transform: scale(1.04);
+}
+
+
+/* Edición de foto de perfil */
+
+#fotojhoan {
+    width: 240px;
+    border: solid 4px #000000;
+    border-radius: 50%;
+    -webkit-box-shadow: 7px 10px 16px 7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 10px 16px 7px rgba(0,0,0,0.75);
+    box-shadow: 7px 10px 16px 7px rgba(0,0,0,0.75);
+}
+
+
 .foto {
-    width: 300px;
+    text-align: center;
+    margin-top: 20px;
+    overflow: hidden;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    
+}
+
+
+/* Edición de Nombres y Apellidos */
+
+.nombre_article {
+   position: relative;
+}
+
+.nombre_section {
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-left: 17px;
+    padding-right: 17px;
+    text-align: center;
+    margin-bottom: 0px;
+    
+}
+
+h2.nombres, h2.apellido {
+    margin-top: 10px;
+    color: #5e1a1a;
+}
+
+.nombres {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    display: inline-block;
+    font-size: 40px;
+}
+
+p.nombres {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding-left: 15px;
+    font-size: 35px;
+}  
+
+.apellido{
+    margin-top: 0px;
+    display: inline-block;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+p.apellido {
+    margin-top: 10px;
+    padding-left: 15px;
+    margin-bottom: 0px;
+}
+
+
+/* Edición de ¿Quién soy? */
+
+
+.perfil {
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.perfil_title {
+    font-size: 30px;
+    text-align: center;
+    border-bottom: solid 2px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 20px;
+}
+.perfil p {
+    font-size: 19px;
+}
+
+.links_article {
+    font-size: 24px;
+    margin-top: 40px;
+}
+
+.link {
+    color: #b83983;
+    border: solid 2.4px;
+    padding: 0px 5px 0px 5px;
+    border-radius: 8px;
+    background-image: linear-gradient( 109.6deg,  rgba(253,199,141,1) 11.3%, rgba(249,143,253,1) 100.2% );
+    
+}
+
+a.link:hover {
+    color: rgb(90, 19, 69);
+    transition: 0.2s;
+    -webkit-box-shadow: 7px 10px 16px 7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 16px 7px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 20px 7px rgba(0,0,0,0.75);
+    
+}
+
+#git {
+    margin-right: 28px;
+    margin-left: 28px;
+}
+
+#insta {
+    margin-left: 28px;
+}
+
+#linked {
+    margin-left: 28px;
+}
+
+/* Edición de segunda columna */
+
+#columna2 h1{
+    text-align: center;
+    border-bottom: solid 2px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 20px;
+    padding-right: 12px;
+    padding-left: 12px;
+
+}
+
+#columna2 details {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+
+
+.python {
+    width: 100px;
+}
+
+.html {
+    width: 100px;
+}
+
+.css {
+    width: 100px;
 }
