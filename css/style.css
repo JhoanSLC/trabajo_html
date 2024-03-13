@@ -1,0 +1,13 @@
+
+.columna1, #columna2{
+    width: 33.33%;
+    height: 750px;
+    float: left;
+    border: solid 5px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.foto {
+    width: 300px;
+}
