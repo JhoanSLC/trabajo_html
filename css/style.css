@@ -19,14 +19,13 @@ ul {
 /* Estilos de columnas */
 
 .columna1 {
-    margin-top: 20px;    
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
     width: 30%;
-    height: 730px;
+    height: 760px;
     float: left;
-    border: solid 5px;
     border-radius: 20px;
-    margin-right: 20px;
-    margin-left: 20px;
     -webkit-box-shadow: 7px 10px 16px 7px rgba(0,0,0,0.75); /* Sombras */
     -moz-box-shadow: 7px 10px 16px 7px rgba(0,0,0,0.75); /* Sombras */
     box-shadow: 7px 10px 16px 7px rgba(0,0,0,0.75); /* Sombras */
@@ -36,13 +35,13 @@ ul {
 }
 
 #columna2 {
-    margin-top: 20px;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
     width: 30%;
-    height: 730px;
+    height: 760px;
     float: left;
-    border: solid 5px;
     border-radius: 20px;
-    margin-right: 20px;
     -webkit-box-shadow: 7px 10px 16px 7px rgba(0,0,0,0.75); /* Sombra */
     -moz-box-shadow: 7px 10px 16px 7px rgba(0,0,0,0.75); /* Sombra */
     box-shadow: 7px 10px 16px 7px rgba(0,0,0,0.75); /* Sombra */
@@ -53,13 +52,12 @@ ul {
 
 
 #columna3 {
-    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
     width: 30%;
-    height: 720px;
+    height: 760px;
     float: left;
-    border: solid 5px;
     border-radius: 20px;
-    margin-right: 20px;
     -webkit-box-shadow: 7px 10px 16px 7px rgba(0,0,0,0.75); /* Sombra */
     -moz-box-shadow: 7px 10px 16px 7px rgba(0,0,0,0.75); /* Sombra */
     box-shadow: 7px 10px 16px 7px rgba(0,0,0,0.75); /* Sombra */
@@ -239,7 +237,7 @@ a.link:hover {
 
 /* Edición de los details */
 #columna2 details {
-    color: #70f085; 
+    color: #88a3dd; 
     padding-right: 20px;
     padding-left: 20px;
     margin-bottom: 20px;
@@ -282,7 +280,12 @@ details p strong {
 
 h1.title {
     text-align: center;
+    color: #cb6ae4
 
+}
+
+h2.title {
+    color: #cb6ae4;
 }
 
 #columna3 p {
@@ -292,6 +295,10 @@ h1.title {
 
 .centrar {
     text-align: center;
+}
+
+ul details {
+    color: #cb6ae4;
 }
 
 .logo {
